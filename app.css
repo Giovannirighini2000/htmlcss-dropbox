@@ -92,5 +92,19 @@ a{
     padding-right: 50px;
 }
 .bottoni{
-    padding-top:72px ;
+    padding-top:72px;
+    padding-bottom: 50px;
 }
+.colcards{
+    flex-basis: 31%;
+      
+}
+.between2{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.colcardsfull{
+    flex-basis: 100%;
+}
+
+
