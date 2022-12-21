@@ -77,6 +77,7 @@ a{
 }
 .colort{
     color: #221f1f;
+    padding-right: 49px;
 }
 .main-container2{
     padding-left: 470px;
@@ -124,6 +125,7 @@ a{
 }
 .spazio{
     padding-left: 55px;
+    padding-right:34px;
 }
 .h4{
     padding-top:36px;
@@ -160,12 +162,13 @@ a{
 .gb{
     padding-bottom: 27px;
 }
-.cart{
-    padding-bottom: 210px;
-}
+
 .bold{
     font-weight: bold;
 }
 .sottolinea{
      border-bottom: 1px solid #0061ff;
+}
+.cart2{
+    padding-bottom: 70px;
 }
