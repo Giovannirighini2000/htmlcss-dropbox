@@ -29,21 +29,52 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-.main-container{
+.header-container{
     max-height: 84px;
     padding-top:32px;
     padding-bottom: 32px;
     padding-left: 22px;
     padding-right: 22px;
-    color: #7d7d7d;
+    
 }
 .ha{
     padding-right: 40px;
+    color: #645f5f;
   
 }
 .button-start{
-    /* padding-left: 20px; */
+   
     border: 12px solid #0061ff;
     background-color: #0061ff;
     color: white;
+}
+.main-contanier{
+    padding-left: 360px;
+    padding-right: 396px;
+    padding-top: 100px;
+}
+.title{
+  
+    font-size: 80px;
+    line-height: 1;
+    padding-bottom: 50px;
+}
+.padtitle{
+      padding-right:132px ;
+}
+.col-1{
+    flex-basis: 33%;
+}
+.col-2{
+    flex-basis: 66%;
+}
+.giu{
+    padding-bottom: 33px;
+}
+.freccia{
+    padding-top: 90px;
+    font-size: 50px;
+}
+.colort{
+    color: #221f1f;
 }
