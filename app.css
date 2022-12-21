@@ -97,14 +97,75 @@ a{
 }
 .colcards{
     flex-basis: 31%;
+    border: 1px solid #e7e7e9;
+    
       
 }
 .between2{
     justify-content: space-between;
-    flex-wrap: wrap;
+     flex-wrap: wrap; 
+     gap: 20px;
 }
 .colcardsfull{
     flex-basis: 100%;
+    border: 1px solid #e7e7e9;
+}
+.linea{
+    
+    padding: 10px 120px;
+     border-bottom: 1px solid #e7e7e9;
 }
 
-
+.fa-regular{
+    color: #e7e7e9;
+}
+.fa-check{
+    color: #0061ff;
+}
+.spazio{
+    padding-left: 55px;
+}
+.h4{
+    padding-top:36px;
+    padding-bottom: 26px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.mese{
+    padding-top: 14px;
+    padding-bottom: 55px;
+}
+.utente{
+    padding-bottom:24px ;
+}
+.tb{
+    padding-bottom: 24px;
+}
+.prod{
+    padding-bottom: 54px;
+}
+.giorni{
+    padding-bottom: 34px;
+}
+.acquista{
+    padding-bottom: 40px;
+    
+}
+.line{
+    padding-bottom: 40px;
+}
+.piano{
+    padding-bottom: 34px;
+}
+.gb{
+    padding-bottom: 27px;
+}
+.cart{
+    padding-bottom: 210px;
+}
+.bold{
+    font-weight: bold;
+}
+.sottolinea{
+     border-bottom: 1px solid #0061ff;
+}
