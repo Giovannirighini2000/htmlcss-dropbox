@@ -47,6 +47,8 @@ a{
     border: 12px solid #0061ff;
     background-color: #0061ff;
     color: white;
+    padding-right: 23px;
+    padding-left: 20px;
 }
 .main-contanier{
     padding-left: 360px;
@@ -105,15 +107,16 @@ a{
 .between2{
     justify-content: space-between;
      flex-wrap: wrap; 
-     gap: 20px;
+     gap: 35px;
 }
 .colcardsfull{
     flex-basis: 100%;
     border: 1px solid #e7e7e9;
+    gap: 35px;
 }
 .linea{
     
-    padding: 10px 120px;
+   
      border-bottom: 1px solid #e7e7e9;
 }
 
@@ -171,4 +174,37 @@ a{
 }
 .cart2{
     padding-bottom: 70px;
+}
+.build{
+    border-bottom: 1px solid #e7e7e9;
+}
+.building{
+    text-align: center;
+}
+.center{
+    text-align:center;
+}
+.angolo1{
+    position: relative;
+}
+.angolo{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+.ali{
+    padding-left: 55px;
+}
+.giu{
+    padding-bottom: 55px;
+}
+.giu1{
+    padding-bottom: 35px;
+}
+.su{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.container-card{
+    padding-bottom: 155px;
 }
