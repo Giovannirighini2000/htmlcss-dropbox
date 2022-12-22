@@ -230,12 +230,6 @@ body{
     position: relative;
 }
 
-.angolo{
-    position: absolute;
-    top: 50px;
-    right: 20px;
-}
-
 .ali{
     padding-left: 55px;
 }
@@ -413,4 +407,8 @@ body{
 }
 .p-das{
     padding-bottom: 248px;
+}
+.betweenC{
+    justify-content: space-between;
+    align-items: center;
 }
