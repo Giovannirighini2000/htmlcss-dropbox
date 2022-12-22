@@ -262,11 +262,11 @@ body{
     max-width:1042px ;
     margin: 0 auto;
 }
-.col-figparter{
+.col-figpartner{
     flex-basis: 62%;
    
 }
-.col-parter{
+.col-partner{
     flex-basis: 38%;
     padding-right: 59px;
 }
