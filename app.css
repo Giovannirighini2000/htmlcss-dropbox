@@ -239,6 +239,7 @@ body{
 .ali{
     padding-left: 55px;
 }
+
 .pad-card-full{
     padding-bottom: 35px;   
     padding-top: 50px;
@@ -256,62 +257,75 @@ body{
 .cardfull{
     padding-bottom: 55px;
 }
+
 /* PARTNER DROP BOX */
 .Container-Partner{
     max-width:1042px ;
     margin: 0 auto;
 }
+
 .col-figpartner{
     flex-basis: 62%;
    
 }
+
 .col-partner{
     flex-basis: 38%;
     padding-right: 59px;
 }
+
 .h4-fuori-card{
     padding-top: 58px;
     padding-bottom: 26px;
     font-weight: bold;
     font-size: 25px;
 }
+
 .gappartner{
     gap: 54px;
 }
+
 .bottone-vuoto{
     border: 1px solid black;
     color: black;
     padding: 7px;
     
 }
+
 .pabut{
     padding-top: 33px;
 }
+
 .Container-Operazioni{
     max-width:1042px;
     margin: 0 auto;
     margin-top: 170px;
-
 }
+
 .Col-Title{
     flex-basis: 100%;
 }
+
 .Col-Img-Tex{
     flex-basis: 30%;
 }
+
 .wrap{
     flex-wrap: wrap;
     gap: 52px;
 }
+
 .h2-tiltle{
     padding-bottom: 50px;
 }
+
 .h4-img-tex{
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
     padding-bottom: 40px;
 }
+
 /* UTILIZZATORI DROPBOX */
 .Container-dropbox{
     max-width: 1042px;
@@ -319,25 +333,84 @@ body{
     margin-top: 222px;
     margin-bottom: 155px;
 }
+
 .col-link{
     flex-basis: 100%;
 }
+
 .col-tex{
     flex-basis: 100%;
     padding-bottom: 60px;
 }
+
 .wrap-utilizzatori{
     flex-wrap: wrap;
 }
+
 .col-designit{
     flex-basis: 33%;
+    flex-direction: column;
 }
-.Container-Designit{
-    max-width: 2000px;
+.pad-sec{
+    padding-left: 54px;
+    padding-right: 60px;
 }
 .Col-figure{
-   flex-basis: 50%;       
+   flex-basis: 50%;
+       
 }
+
 .wrap-designit{
     flex-wrap: wrap;
+}
+
+.logo-mod{
+    /* padding: 100px; */
+    
+}
+
+.des{
+   background-color: #a2d39b;
+}
+
+.asu{
+    background-color: #61082b;
+    ;
+    
+}
+
+.uf{
+    background-color: #0093ce;
+}
+.topps{
+    background-color: #ff1c1c;
+}
+.word{
+    background-color: #ff1c1c;
+    /* padding: 110px; */
+}
+.heartst{
+    background-color: #b4d0e7;
+    /* padding: 110px; */
+}
+.planet{
+    background-color: #0d2481;
+}
+.clear{
+    background-color: #ffd830;
+
+}
+.p-des{
+    padding-bottom:55px ;
+}
+.pad-figrs{
+     padding-top: 50px; 
+     padding-bottom: 95px;
+}
+.logo-central{
+    width: 280px;
+    height: 90px;
+}
+.p-das{
+    padding-bottom: 248px;
 }
