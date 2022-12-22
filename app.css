@@ -51,8 +51,7 @@ body{
 }
 
 .Pa{
-    padding-right: 40px;
-    
+    padding-right: 40px;   
 }
 
 .button-start{
@@ -74,6 +73,7 @@ body{
     padding-top: 100px;
     max-width: 1256px;
     margin: 0 auto;
+    margin-bottom:166px ;
 }
 
 .title{
@@ -106,7 +106,6 @@ body{
 }
 /* MAIN CONTAINER INIZIO BUINESS */
 .main-container-business{
-    padding-top: 166px;
     max-width: 1042px;
     margin: 0 auto;
 }
@@ -251,7 +250,7 @@ body{
 }
 
 .container-card{
-    padding-bottom: 155px;
+    margin-bottom: 155px;
 }
 
 .cardfull{
@@ -287,4 +286,29 @@ body{
 }
 .pabut{
     padding-top: 33px;
+}
+.Container-Operazioni{
+    max-width:1042px;
+    margin: 0 auto;
+    margin-top: 170px;
+
+}
+.Col-Title{
+    flex-basis: 100%;
+}
+.Col-Img-Tex{
+    flex-basis: 30%;
+}
+.wrap{
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.h2-tiltle{
+    padding-bottom: 50px;
+}
+.h4-img-tex{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 40px;
 }
