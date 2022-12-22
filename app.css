@@ -14,13 +14,17 @@ img{
 }
 a{
     text-decoration: none;
+    color: currentColor;
 }
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ font-family: 'Open Sans', sans-serif;
 .logo{
-    width: 133px;
-    height: 19px;
-    align-self: baseline;
-    padding-right: 44px;
+    width: 134px;
+    height: 26px;
     
+}
+.left{
+    padding-left: 44px;
 }
 .row{
     display: flex;
@@ -28,13 +32,15 @@ a{
 .between{
     justify-content: space-between;
     align-items: center;
+    line-height: 34px;
 }
 .header-container{
     max-height: 84px;
-    padding-top:32px;
+    padding-top:28px;
     padding-bottom: 32px;
     padding-left: 22px;
     padding-right: 22px;
+    
     
 }
 .ha{
@@ -50,19 +56,16 @@ a{
     padding-right: 23px;
     padding-left: 20px;
 }
-.main-contanier{
-    padding-left: 360px;
-    padding-right: 396px;
+.hero-contanier{
     padding-top: 100px;
+    max-width: 1256px;
+    margin: 0 auto;
 }
 .title{
   
-    font-size: 80px;
+    font-size: 82px;
     line-height: 1;
     padding-bottom: 50px;
-}
-.padtitle{
-      padding-right:132px ;
 }
 .col-1{
     flex-basis: 33%;
@@ -82,9 +85,9 @@ a{
     padding-right: 49px;
 }
 .main-container2{
-    padding-left: 470px;
-    padding-right: 470px;
     padding-top: 297px;
+    max-width: 1042px;
+    margin: 0 auto;
 
 }
 .title2{
