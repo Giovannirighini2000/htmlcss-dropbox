@@ -312,3 +312,20 @@ body{
     line-height: 30px;
     padding-bottom: 40px;
 }
+/* UTILIZZATORI DROPBOX */
+.Container-dropbox{
+    max-width: 1042px;
+    margin: 0 auto;
+    margin-top: 222px;
+    margin-bottom: 155px;
+}
+.col-link{
+    flex-basis: 100%;
+}
+.col-tex{
+    flex-basis: 100%;
+    padding-bottom: 60px;
+}
+.wrap-utilizzatori{
+    flex-wrap: wrap;
+}
