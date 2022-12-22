@@ -60,8 +60,9 @@ body{
     border: 8px solid #0061ff;
     background-color: #0061ff;
     color: white;
-    padding-right: 14px;
-    padding-left: 14px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 6px;
 }
 
 .img-sottosfondo{
@@ -256,4 +257,34 @@ body{
 .cardfull{
     padding-bottom: 55px;
 }
-/* PARTENER DROP BOX */
+/* PARTNER DROP BOX */
+.Container-Partner{
+    max-width:1042px ;
+    margin: 0 auto;
+}
+.col-figparter{
+    flex-basis: 62%;
+   
+}
+.col-parter{
+    flex-basis: 38%;
+    padding-right: 59px;
+}
+.h4-fuori-card{
+    padding-top: 58px;
+    padding-bottom: 26px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.gappartner{
+    gap: 54px;
+}
+.bottone-vuoto{
+    border: 1px solid black;
+    color: black;
+    padding: 7px;
+    
+}
+.pabut{
+    padding-top: 33px;
+}
