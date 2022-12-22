@@ -50,11 +50,14 @@ a{
 }
 .button-start{
    
-    border: 12px solid #0061ff;
+    border: 8px solid #0061ff;
     background-color: #0061ff;
     color: white;
-    padding-right: 23px;
+    padding-right: 20px;
     padding-left: 20px;
+}
+.img-sottosfondo{
+    margin-bottom: -75px;
 }
 .hero-contanier{
     padding-top: 100px;
@@ -63,7 +66,7 @@ a{
 }
 .title{
   
-    font-size: 82px;
+    font-size: 87px;
     line-height: 1;
     padding-bottom: 50px;
 }
@@ -73,16 +76,14 @@ a{
 .col-2{
     flex-basis: 66%;
 }
-.giu{
-    padding-bottom: 33px;
-}
 .freccia{
     padding-top: 90px;
     font-size: 50px;
 }
 .colort{
     color: #221f1f;
-    padding-right: 49px;
+    padding-right: 55px;
+    line-height: 22px;
 }
 .main-container2{
     padding-top: 297px;
@@ -139,6 +140,7 @@ a{
     font-weight: bold;
     font-size: 25px;
 }
+
 .mese{
     padding-top: 14px;
     padding-bottom: 55px;
@@ -199,7 +201,7 @@ a{
     padding-left: 55px;
 }
 .giu{
-    padding-bottom: 55px;
+    padding-bottom: 33px;
 }
 .giu1{
     padding-bottom: 35px;
@@ -210,4 +212,7 @@ a{
 }
 .container-card{
     padding-bottom: 155px;
+}
+.cardfull{
+    padding-bottom: 55px;
 }
