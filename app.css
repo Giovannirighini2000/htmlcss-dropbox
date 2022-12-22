@@ -301,7 +301,7 @@ body{
 }
 .wrap{
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 52px;
 }
 .h2-tiltle{
     padding-bottom: 50px;
@@ -327,5 +327,17 @@ body{
     padding-bottom: 60px;
 }
 .wrap-utilizzatori{
+    flex-wrap: wrap;
+}
+.col-designit{
+    flex-basis: 33%;
+}
+.Container-Designit{
+    max-width: 2000px;
+}
+.Col-figure{
+   flex-basis: 50%;       
+}
+.wrap-designit{
     flex-wrap: wrap;
 }
