@@ -1,3 +1,4 @@
+/* REGOLE GENERALI */
 * {
 	margin: 0;
 	padding: 0;
@@ -16,38 +17,43 @@ a{
     text-decoration: none;
     color: currentColor;
 }
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
- font-family: 'Open Sans', sans-serif;
+body{
+     font-family: 'Open Sans', sans-serif; 
+}
+
+
+/* HEADER */
 .logo{
     width: 134px;
-    height: 26px;
-    
+    height: 26px;  
 }
+
 .left{
     padding-left: 44px;
 }
+
 .row{
     display: flex;
 }
+
 .between{
     justify-content: space-between;
     align-items: center;
     line-height: 34px;
 }
+
 .header-container{
     max-height: 84px;
     padding-top:28px;
     padding-bottom: 32px;
     padding-left: 22px;
-    padding-right: 22px;
-    
-    
+    padding-right: 22px;   
 }
-.ha{
-    padding-right: 40px;
-    color: #645f5f;
-  
+
+.Pa{
+    padding-right: 40px; 
 }
+
 .button-start{
    
     border: 8px solid #0061ff;
@@ -56,84 +62,100 @@ a{
     padding-right: 20px;
     padding-left: 20px;
 }
+
 .img-sottosfondo{
     margin-bottom: -75px;
 }
+
+/* HERO CONTAINER MAIN SECT */
 .hero-contanier{
     padding-top: 100px;
     max-width: 1256px;
     margin: 0 auto;
 }
+
 .title{
   
     font-size: 87px;
     line-height: 1;
     padding-bottom: 50px;
 }
+
 .col-1{
     flex-basis: 33%;
 }
+
 .col-2{
     flex-basis: 66%;
 }
+
 .freccia{
     padding-top: 90px;
     font-size: 50px;
 }
+
 .colort{
     color: #221f1f;
     padding-right: 55px;
     line-height: 22px;
 }
-.main-container2{
-    padding-top: 297px;
+.giu{
+    padding-bottom: 33px;
+}
+/* MAIN CONTAINER INIZIO BUINESS */
+.main-container-business{
+    padding-top: 166px;
     max-width: 1042px;
     margin: 0 auto;
-
 }
+
+.Fatturazione{
+    gap: 100px;
+}
+
 .title2{
     font-size: 40px;
+}
 
-}
-.radio{
-    padding-right: 50px;
-}
 .bottoni{
     padding-top:72px;
     padding-bottom: 50px;
 }
+
 .colcards{
     flex-basis: 31%;
-    border: 1px solid #e7e7e9;
-    
-      
+    border: 1px solid #e7e7e9;     
 }
+
 .between2{
     justify-content: space-between;
      flex-wrap: wrap; 
      gap: 35px;
 }
+
 .colcardsfull{
     flex-basis: 100%;
     border: 1px solid #e7e7e9;
     gap: 35px;
 }
+
 .linea{
-    
-   
-     border-bottom: 1px solid #e7e7e9;
+    border-bottom: 1px solid #e7e7e9; 
 }
 
 .fa-regular{
     color: #e7e7e9;
 }
+
 .fa-check{
     color: #0061ff;
 }
+
 .spazio{
     padding-left: 55px;
     padding-right:34px;
 }
+
 .h4{
     padding-top:36px;
     padding-bottom: 26px;
@@ -145,28 +167,35 @@ a{
     padding-top: 14px;
     padding-bottom: 55px;
 }
+
 .utente{
     padding-bottom:24px ;
 }
+
 .tb{
     padding-bottom: 24px;
 }
+
 .prod{
     padding-bottom: 54px;
 }
+
 .giorni{
     padding-bottom: 34px;
 }
+
 .acquista{
-    padding-bottom: 40px;
-    
+    padding-bottom: 40px;   
 }
+
 .line{
     padding-bottom: 40px;
 }
+
 .piano{
     padding-bottom: 34px;
 }
+
 .gb{
     padding-bottom: 27px;
 }
@@ -174,45 +203,54 @@ a{
 .bold{
     font-weight: bold;
 }
+
 .sottolinea{
      border-bottom: 1px solid #0061ff;
 }
+
 .cart2{
     padding-bottom: 70px;
 }
+
 .build{
     border-bottom: 1px solid #e7e7e9;
 }
+
 .building{
     text-align: center;
 }
+
 .center{
     text-align:center;
 }
+
 .angolo1{
     position: relative;
 }
+
 .angolo{
     position: absolute;
     top: 50px;
     right: 20px;
 }
+
 .ali{
     padding-left: 55px;
 }
-.giu{
-    padding-bottom: 33px;
+.pad-card-full{
+    padding-bottom: 35px;   
+    padding-top: 50px;
 }
-.giu1{
-    padding-bottom: 35px;
-}
+
 .su{
     padding-top: 9px;
     padding-bottom: 9px;
 }
+
 .container-card{
     padding-bottom: 155px;
 }
+
 .cardfull{
     padding-bottom: 55px;
-}
+/* section trova un parter */
