@@ -364,6 +364,7 @@ body{
 .logo-mod{
      padding: 100px;
      padding-top: 125px;
+     filter: invert(100%);
     
 }
 
@@ -426,5 +427,5 @@ body{
 }
 .border-logo{
     padding-bottom: 158px;
-    border: 10px solid #d1e9cd ;
+    border: 10px solid #0000008c ;
 }
