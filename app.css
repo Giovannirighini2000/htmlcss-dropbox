@@ -186,15 +186,20 @@ body{
 }
 
 .acquista{
-    padding-bottom: 40px;   
+    padding-bottom: 20px;   
 }
-
-.line{
-    padding-bottom: 40px;
-}
-
 .piano{
     padding-bottom: 34px;
+
+}
+.piano::before{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 50px;
+    background-color: #e7e7e9;
+    margin: 40px 0px;
+
 }
 
 .gb{
@@ -334,18 +339,19 @@ body{
 
 .col-tex{
     flex-basis: 100%;
-    padding-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .wrap-utilizzatori{
     flex-wrap: wrap;
 }
-
+/* DESIGNIT LOGHI IMG */
 .col-designit{
     flex-basis: 33%;
     flex-direction: column;
     
 }
+
 .pad-sec{
     padding-left: 54px;
     padding-right: 60px;
@@ -353,7 +359,7 @@ body{
 }
 .Col-figure{
    flex-basis: 50%;
-   height: 339px; 
+   height: 328px; 
        
 }
 
@@ -364,8 +370,7 @@ body{
 .logo-mod{
      padding: 100px;
      padding-top: 125px;
-     filter: invert(100%);
-    
+     filter: invert(100%); 
 }
 
 .des{
@@ -418,14 +423,32 @@ body{
 }
 
 .p-das{
-    padding-bottom: 248px;
+    margin-bottom: 229px;
 }
 
 .betweenC{
-    justify-content: space-between;
-    align-items: center;
+     justify-content: space-between; 
+      align-items: center; 
 }
 .border-logo{
-    padding-bottom: 158px;
-    border: 10px solid #0000008c ;
+    padding-bottom: 144px;
+    border: 13px solid #0000008c ;
+}
+/* LA TUA AZIENDA DROPBOX */
+.container-azienda{
+    max-width: 1042px;
+    margin: 0 auto;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+.red-title{
+    font-weight: bold;
+    color: #600b38;
+    font-size: 40px;
+}
+.bottone-azienda{
+    border: 1px solid #b4d0e7;
+    color: black;
+    padding: 16px;
+    background-color: white;
 }
