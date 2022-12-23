@@ -325,7 +325,7 @@ body{
     max-width: 1042px;
     margin: 0 auto;
     margin-top: 222px;
-    margin-bottom: 155px;
+    margin-bottom: 155px; 
 }
 
 .col-link{
@@ -344,13 +344,16 @@ body{
 .col-designit{
     flex-basis: 33%;
     flex-direction: column;
+    
 }
 .pad-sec{
     padding-left: 54px;
     padding-right: 60px;
+    flex-basis: 34%;
 }
 .Col-figure{
    flex-basis: 50%;
+   height: 339px; 
        
 }
 
@@ -359,7 +362,8 @@ body{
 }
 
 .logo-mod{
-     padding: 100px; 
+     padding: 100px;
+     padding-top: 125px;
     
 }
 
@@ -368,47 +372,59 @@ body{
 }
 
 .asu{
-    background-color: #61082b;
-    ;
-    
+    background-color: #61082b;    
 }
 
 .uf{
     background-color: #0093ce;
 }
+
 .topps{
     background-color: #ff1c1c;
 }
+
 .word{
     background-color: #ff1c1c;
-    /* padding: 110px; */
+    
 }
+
 .heartst{
     background-color: #b4d0e7;
-    /* padding: 110px; */
+    
 }
+
 .planet{
     background-color: #0d2481;
 }
+
 .clear{
     background-color: #ffd830;
 
 }
+
 .p-des{
     padding-bottom:55px ;
 }
+
 .pad-figrs{
      padding-top: 50px; 
      padding-bottom: 95px;
 }
+
 .logo-central{
     width: 280px;
     height: 90px;
 }
+
 .p-das{
     padding-bottom: 248px;
 }
+
 .betweenC{
     justify-content: space-between;
     align-items: center;
+}
+.border-logo{
+    padding-bottom: 158px;
+    border: 10px solid #d1e9cd ;
 }
