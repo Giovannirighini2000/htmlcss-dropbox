@@ -347,38 +347,42 @@ body{
 }
 /* DESIGNIT LOGHI IMG */
 .col-designit{
-    flex-basis: 33%;
-    flex-direction: column;
-    
+    flex-basis: 33%;       
 }
 
 .pad-sec{
     padding-left: 54px;
     padding-right: 60px;
     flex-basis: 34%;
-}
-.Col-figure{
-   flex-basis: 50%;
-   height: 328px; 
-       
+    flex-direction: column;
 }
 
+.Col-figure{   
+    height: 50%;
+    flex-basis:50%;
+    justify-content: center;
+    align-items: center;
+}
 .wrap-designit{
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;      
 }
 
 .logo-mod{
-     padding: 100px;
-     padding-top: 125px;
-     filter: invert(100%); 
+  filter: invert(100%);
+  width: 50%;
+   
+     
 }
 
 .des{
-   background-color: #a2d39b;
+   background-color: #a2d39b;   
 }
 
 .asu{
     background-color: #61082b;    
+    
 }
 
 .uf{
@@ -425,14 +429,14 @@ body{
 .p-das{
     margin-bottom: 229px;
 }
-
-.betweenC{
-     justify-content: space-between; 
-      align-items: center; 
+.items{
+    height: 100%;
 }
+
+
 .border-logo{
-    padding-bottom: 144px;
-    border: 13px solid #0000008c ;
+    
+     border: 13px solid #ffffff63 ; 
 }
 /* LA TUA AZIENDA DROPBOX */
 .container-azienda{
@@ -451,4 +455,14 @@ body{
     color: black;
     padding: 16px;
     background-color: white;
+}
+.betweenC{
+     justify-content: space-between; 
+      align-items: center; 
+}
+.col-50{
+    flex-basis: 50%;
+}
+.gap-azienda{
+    gap: 100px;
 }
