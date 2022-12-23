@@ -475,17 +475,17 @@ body{
     margin: 0 auto;
     max-width:1042px;
     margin-top: 170px;
+    margin-bottom: 150px;
 }
 .titolo-domande-frequenti{
     font-size: 35px;
     font-weight: bold;
-
 }
    
 .p-bold{
     font-weight: bold;
 }
-.p-bold::before{
+.Line::after{ 
     content: '';
     display: block;
     height: 2px;
@@ -493,15 +493,18 @@ body{
     background-color: #e7e7e9;
     margin: 35px 0px;
 }
-.last-line::after{
-    content: '';
-    display: block;
-    height: 2px;
-    width: 1042px;
-    background-color: #e7e7e9;
-    margin: 35px 0px;
-
+/* FOOTER */
+.container-footer{
+    margin: 0 auto;
+    max-width: 1252px;
+    padding-top: 110px;
 }
-.fa-chevron-down{
-    margin-left: 350px;
+footer{
+    background-color: black;
+}
+.title-footer{
+    color: white;
+}
+.col-20{
+    flex-basis: 20%;
 }
