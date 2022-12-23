@@ -453,16 +453,17 @@ body{
 .bottone-azienda{
     border: 1px solid #b4d0e7;
     color: black;
-    padding: 16px;
+    padding:10px 31px;
     background-color: white;
+    margin-bottom: 40px
 }
 .betweenC{
      justify-content: space-between; 
       align-items: center; 
 }
-.col-50{
-    flex-basis: 50%;
+.col-75{
+    flex-basis: 75%;
 }
-.gap-azienda{
-    gap: 100px;
+.col-25{
+    flex-basis: 25%;
 }
