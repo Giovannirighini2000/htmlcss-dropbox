@@ -477,15 +477,31 @@ body{
     margin-top: 170px;
 }
 .titolo-domande-frequenti{
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
 
 }
-.titolo-domande-frequenti::after{
+   
+.p-bold{
+    font-weight: bold;
+}
+.p-bold::before{
     content: '';
     display: block;
     height: 2px;
     width: 1042px;
     background-color: #e7e7e9;
-    margin: 50px 0px;
+    margin: 35px 0px;
+}
+.last-line::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 1042px;
+    background-color: #e7e7e9;
+    margin: 35px 0px;
+
+}
+.fa-chevron-down{
+    margin-left: 350px;
 }
