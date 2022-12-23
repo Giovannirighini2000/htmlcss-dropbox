@@ -461,9 +461,31 @@ body{
      justify-content: space-between; 
       align-items: center; 
 }
-.col-75{
-    flex-basis: 75%;
+.col-65{
+    flex-basis: 65%;
 }
-.col-25{
-    flex-basis: 25%;
+.col-35{
+    flex-basis: 35%;
+}
+.gap-agency{
+     gap: 328px; 
+}
+/* DOMANDE FREQUENTI */
+.container-domande-frequenti{
+    margin: 0 auto;
+    max-width:1042px;
+    margin-top: 170px;
+}
+.titolo-domande-frequenti{
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.titolo-domande-frequenti::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 1042px;
+    background-color: #e7e7e9;
+    margin: 50px 0px;
 }
