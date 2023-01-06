@@ -180,13 +180,9 @@ body{
 .prod{
     padding-bottom: 54px;
 }
-
-.giorni{
-    padding-bottom: 34px;
-}
-
 .acquista{
-    padding-bottom: 20px;   
+    padding-bottom: 20px;
+    padding-top: 34px   
 }
 .piano{
     padding-bottom: 34px;
@@ -256,7 +252,9 @@ body{
 .cardfull{
     padding-bottom: 55px;
 }
-
+.grey{
+    color: grey;
+}
 /* PARTNER DROP BOX */
 .Container-Partner{
     max-width:1042px ;
@@ -496,15 +494,37 @@ body{
 /* FOOTER */
 .container-footer{
     margin: 0 auto;
-    max-width: 1252px;
+    max-width: 1400px;
     padding-top: 110px;
+    padding-bottom: 70px;
 }
 footer{
     background-color: black;
 }
 .title-footer{
     color: white;
+    padding-bottom: 20px;
+    font-size: 18px;
 }
 .col-20{
     flex-basis: 20%;
+}
+.White{
+    color: white;
+    
+}
+.padfot{
+    padding-bottom: 8px;
+}
+.solid-foooter::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100px;
+    background-color: #e7e7e9;
+    margin: 40px 0px;
+    
+}
+.color-fot{
+    color: #e7e7f1ad;
 }
