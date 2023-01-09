@@ -373,6 +373,15 @@ body{
    
      
 }
+.fa-solid-des{
+
+content: '';
+display: block;
+height: 1px;
+width: 100px;
+background-color: rgba(128, 128, 128, 0.493);
+margin: 40px 0px;
+}
 
 .des{
    background-color: #a2d39b;   
@@ -416,7 +425,7 @@ body{
 
 .pad-figrs{
      padding-top: 50px; 
-     padding-bottom: 95px;
+    
 }
 
 .logo-central{
